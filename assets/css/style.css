@@ -1,3 +1,19 @@
+/* Style for the h1 header */
+h1 {
+  font-size: 2.5em; /* Adjust this value to match the size of the # in Markdown */
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight:500;
+}
+
+.projects-item h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -20,14 +36,56 @@
 
 .project-item h2 {
   margin-top: 0;
-  font-size: 1.5em;
+  font-size: 1.4em;
+  margin-bottom: 0;
+  font-weight: 600;
 }
 
 .project-item p {
   margin-bottom: 0;
+  font-size: 1em;
+}
+
+.project-item dt {
+    color: grey;
+    margin-bottom: 5px;
+    font-size: .9em;
+
 }
 
 .project-item:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline;
+  background-color: #007bff; /* Blue background color */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding */
+  border-radius: 4px; /* Rounded corners */
+  margin-right: 5px; /* Margin between tags */
+  margin-left: 0;
+  font-size: 0.9em; /* Font size */
+}
+
+.tag-image {
+  max-height: 50px; /* Adjust the height as needed */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+}
+
+section {
+    margin-top: 20px;
 }

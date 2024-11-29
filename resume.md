@@ -3,6 +3,17 @@ layout: post
 title: Resume
 permalink: /resume/
 ---
+<style>
+.wrapper{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+}
+section {
+    margin-top: 20px;
+}
+</style>
+
 <a href="/assets/resume.pdf" download>Download Resume</a>
 
 <iframe src="/assets/resume.pdf" width="100%" height="600px">
