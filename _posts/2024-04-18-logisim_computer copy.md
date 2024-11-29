@@ -1,8 +1,13 @@
 ---
 layout: post
 title: "Logisim Computer"
-date: 2024-01-15 16:24:01 -0500
+date: 2024-04-18
 categories: project
+tags: logisim asm
+excerpt: An 8-bit computer emulator that I created in Logisim Evolution. The computer has a 4-stage pipeline architecture, implementing all necessary components like an ALU, RAM, CPU, CU, etc. It can be used as a calculator and is capable of reading from the keyboard.
 ---
 
-Provide a brief introduction to the project. Explain what OChess is and why you decided to create it.
+TODO
+
+## Links
+- [GitHub Repository](https://github.com/ntonnes/logisim-computer)

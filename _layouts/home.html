@@ -16,21 +16,8 @@ layout: default
       <h1><a href="{{ site.baseurl | prepend: site.url }}">{{ site.title }}</a></h1>
       <p>{{ site.description }}</p>
     </div>
-    <nav class="site-nav">
-      <ul>
-        {% for page in site.pages %}
-          {% if page.title %}
-            <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </nav>
   </header>
   <main>
-    <section class="welcome">
-      <h2>Welcome to {{ site.title }}</h2>
-      <p>Welcome to my personal website. I'm a full-stack developer with four years of experience in web development and database management applications.</p>
-    </section>
     <section class="recent-posts">
       <h2>Recent Posts</h2>
       <ul>
@@ -42,23 +29,5 @@ layout: default
         {% endfor %}
       </ul>
     </section>
-    <section class="projects">
-      <h2>Projects</h2>
-      <ul>
-        {% for project in site.pages %}
-          {% if project.categories contains "project" %}
-            <li>
-              <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-              <p>{{ project.excerpt }}</p>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
-    <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/jekyll/minima">Minima</a>.</p>
-  </footer>
 </body>
 </html>
