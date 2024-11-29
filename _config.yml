@@ -34,7 +34,7 @@ title: Noah Tonnesen
 email: noah.tonnesen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal website. I'm a full-stack developer with four years of experience with the LAMP and Oracle RAD stacks.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://ntonnes.gitub.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: NoahTonnesen
 github_username:  ntonnes
