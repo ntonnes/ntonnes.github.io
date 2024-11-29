@@ -1,22 +1,18 @@
 ---
-layout: page
+layout: grid_list
 title: Projects
 permalink: /projects/
 ---
 
-## Project 1
-**Description:** Brief description of Project 1.  
-**Technologies Used:** List of technologies used in Project 1.  
-**Link:** [Project 1 Link](#)
+# Projects
 
-## OChess
-**Description:** Brief description of Project 2.  
-**Technologies Used:** List of technologies used in Project 2.  
-**Link:** [Project 2 Link](#)
-
-## Project 3
-**Description:** Brief description of Project 3.  
-**Technologies Used:** List of technologies used in Project 3.  
-**Link:** [Project 3 Link](#)
-
-<!-- Add more projects as needed -->
+<div class="projects-grid">
+  {% for post in site.posts %}
+    <div class="project-item">
+      <a href="{{ post.url }}">
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.excerpt }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>

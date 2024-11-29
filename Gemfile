@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
+  gem "public_suffix", "5.1.1"
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

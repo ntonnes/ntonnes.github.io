@@ -8,6 +8,7 @@ twitter_username: NoahTonnesen
 github_username: ntonnes
 
 header_pages:
+  - home.md
   - about.md
   - projects.md
   - blog.md
