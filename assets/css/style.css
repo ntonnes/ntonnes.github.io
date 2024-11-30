@@ -43,7 +43,7 @@ h1 {
 
 .project-item p {
   margin-bottom: 0;
-  font-size: 1em;
+  font-size: 0.95em;
 }
 
 .project-item dt {
@@ -73,6 +73,32 @@ h1 {
   vertical-align: middle;
 }
 
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.1em;
+  box-sizing: border-box;
+}
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1em;
+  width: 100%; /* Ensure the submit button stretches horizontally */
+}
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+form {
+  max-width: 1000px; /* Match the width of the .wrapper */
+  margin: 0 auto;
+}
+
 .wrapper{
     margin: 0 auto;
     max-width: 1000px;
@@ -82,6 +108,15 @@ h1 {
 section {
     margin-top: 20px;
     font-size: 1.1em;
+}
+
+.lang-switch {
+  font-weight: bold;
+}
+
+.footer-col-wrapper {
+  max-width: 450px; /* Adjust the width as needed */
+  justify-content: left;
 }
 
 .social-media-list {
@@ -99,7 +134,7 @@ section {
 
 .social-media-list li:first-child {
   margin-top: 9px;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .social-media-list svg {

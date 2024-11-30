@@ -20,7 +20,11 @@
             {%- include social.html -%}
         </div>
         <div class="footer-col">
-          <p>{{ site.description | escape }}</p>
+          {%- if page.lang == 'en' -%}
+            <p>{{ site.description-en | escape }}</p>
+          {%- else -%}
+            <p>{{ site.description-fr | escape }}</p>
+          {%- endif -%}
         </div>
       </div>
 

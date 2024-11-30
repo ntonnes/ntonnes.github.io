@@ -5,17 +5,7 @@ permalink: /en/about/
 lang: en
 ---
 
-<style>
-.wrapper{
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 10px;
-    font-size: 1.1em;
-}
-section {
-    margin-top: 20px;
-}
-</style>
+<h1>{{ page.title }}</h1>
 
 <img src="/assets/images/headshot.jpg" alt="Headshot" style="float: right; border-radius: 50%; width: 250px; height: 250px; margin-left: 10px; " />
 

@@ -4,42 +4,8 @@ title: Contact
 permalink: /en/contact/
 lang: en
 ---
-<style>
-.wrapper {
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 10px;
-    font-size: 1.1em;
-}
-section {
-    margin-top: 20px;
-}
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1.1em;
-    box-sizing: border-box;
-}
-button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1.1em;
-    width: 100%; /* Ensure the submit button stretches horizontally */
-}
-button[type="submit"]:hover {
-    background-color: #45a049;
-}
-form {
-    max-width: 1000px; /* Match the width of the .wrapper */
-    margin: 0 auto;
-}
-</style>
+
+<h1>{{ page.title }}</h1>
 
 <div class="wrapper">
   <p>Feel free to reach out to me via email at <a href="mailto:noah.tonnesen@gmail.com">noah.tonnesen@gmail.com</a>. Alternatively, you can fill out the contact form below:</p>

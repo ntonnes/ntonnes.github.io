@@ -4,8 +4,10 @@ author:
   name: Noah Tonnesen
   email: noah.tonnesen@gmail.com
 
-description: >-
+description-en: >-
   Welcome to my personal website. I'm a full-stack developer with four years of experience in web development and database management applications.
+description-fr: >-
+  Bienvenue sur mon site personnel. Je suis un développeur full-stack avec quatre ans d'expérience dans les applications de développement Web et de gestion de bases de données.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ntonnes.github.io" # the base hostname & protocol for your site, e.g. http://example.com

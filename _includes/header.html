@@ -35,9 +35,10 @@
           {%- assign switch_page_path = page.path | replace: current_lang, switch_lang -%}
           {%- assign switch_page = site.pages | where: "path", switch_page_path | first -%}
           {%- if switch_page -%}
-            <a class="page-link" href="{{ switch_page.url | relative_url }}">{{ switch_lang | upcase }}</a>
+            <a class="page-link lang-switch" href="{{ switch_page.url | relative_url }}">{{ switch_lang | upcase }}</a>
           {%- else -%}
-            <a class="page-link" href="#">{{ switch_lang | upcase }}</a>
+            {%- assign switch_page_path = page.permalink | replace: current_lang, switch_lang -%}
+            <a class="page-link lang-switch" href="{{ switch_page_path | relative_url }}">{{ switch_lang | upcase }}</a>
           {%- endif -%}
         </div>
       </nav>
