@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Blog
-permalink: /blog/
+permalink: /en/blog/
+lang: en
 ---
 
 <style>

@@ -1,24 +1,48 @@
+# Site settings
 title: Noah Tonnesen
-email: noah.tonnesen@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+author:
+  name: Noah Tonnesen
+  email: noah.tonnesen@gmail.com
+
+description: >-
   Welcome to my personal website. I'm a full-stack developer with four years of experience in web development and database management applications.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ntonnes.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: NoahTonnesen
-github_username: ntonnes
-
-header_pages:
-  - home.md
-  - about.md
-  - projects.md
-  - blog.md
-  - contact.md
-  - resume.md
 
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
+
+header_pages:
+  - _pages/en/index.md
+  - _pages/en/about.md
+  - _pages/en/projects.md
+  - _pages/en/blog.md
+  - _pages/en/contact.md
+  - _pages/en/resume.md
+
+  - _pages/fr/index.md
+  - _pages/fr/about.md
+  - _pages/fr/projects.md
+  - _pages/fr/blog.md
+  - _pages/fr/contact.md
+  - _pages/fr/resume.md
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+minima:
+  skin: dark
+
+  social_links:
+    - { platform: github,    user_url: "https://github.com/ntonnes" }
+    - { platform: x,         user_url: "https://x.com/noahtonnesen" }
+    - { platform: linkedin,  user_url: "https://linkedin.com/in/ntonnesen" }

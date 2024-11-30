@@ -59,24 +59,17 @@ h1 {
 }
 
 .tags {
-  margin-top: 10px;
-}
-
-.tag {
-  display: inline;
-  background-color: #007bff; /* Blue background color */
-  color: white; /* Text color */
-  padding: 5px 10px; /* Padding */
-  border-radius: 4px; /* Rounded corners */
-  margin-right: 5px; /* Margin between tags */
-  margin-left: 0;
-  font-size: 0.9em; /* Font size */
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+  justify-content: center; /* Distribute space between items */
 }
 
 .tag-image {
   max-height: 50px; /* Adjust the height as needed */
   width: auto; /* Maintain aspect ratio */
-  margin-right: 5px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   vertical-align: middle;
 }
 
@@ -88,4 +81,28 @@ h1 {
 }
 section {
     margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.social-media-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: left; /* Aligns the icons to the right */
+}
+
+.social-media-list li {
+  margin-left: 15px; /* Adjust spacing between icons */
+  margin-top: 5px;
+}
+
+.social-media-list li:first-child {
+  margin-top: 9px;
+  margin-left: 50px;
+}
+
+.social-media-list svg {
+  width: 25px; /* Adjust the width as needed */
+  height: 25px; /* Adjust the height as needed */
 }

@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Contact
-permalink: /contact/
+permalink: /en/contact/
+lang: en
 ---
 <style>
 .wrapper {

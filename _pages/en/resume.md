@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Resume
-permalink: /resume/
+permalink: /en/resume/
+lang: en
 ---
 <style>
 .wrapper{
