@@ -4,17 +4,8 @@ title: Resume
 permalink: /en/resume/
 lang: en
 ---
-<style>
-.wrapper{
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 10px;
-    font-size: 1.1em;
-}
-section {
-    margin-top: 20px;
-}
-</style>
+
+<h1>{{ page.title }}</h1>
 
 <a href="/assets/resume.pdf" download>Download Resume</a>
 
