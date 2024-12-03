@@ -7,9 +7,9 @@ lang: en
 
 <h1>{{ page.title }}</h1>
 
-<a href="/assets/resume.pdf" download>Download Resume</a>
+<a href="/assets/CV_EN.pdf" download>Download Resume</a>
 
-<iframe src="/assets/resume.pdf" width="100%" height="600px">
+<iframe src="/assets/CV_EN.pdf" width="100%" height="600px">
     This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="/assets/resume.pdf">Download PDF</a>.
+    <a href="/assets/CV_EN.pdf">Download PDF</a>.
 </iframe>
